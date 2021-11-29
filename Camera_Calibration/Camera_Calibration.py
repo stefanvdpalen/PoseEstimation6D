@@ -18,7 +18,7 @@ objp[0,:,:2] = np.mgrid[0:CHECKERBOARD[0], 0:CHECKERBOARD[1]].T.reshape(-1, 2)*2
 prev_img_shape = None
 
 # Extracting path of individual image stored in a given directory
-images = glob.glob('./Calibration_Images/*.jpg')
+images = glob.glob('./Calibration_Images_Phone/30FPS_V2/*.jpg')
 for fname in images:
     img = cv2.imread(fname)
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
