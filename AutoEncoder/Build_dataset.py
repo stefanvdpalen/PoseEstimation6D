@@ -1,3 +1,6 @@
+# This script gathers the images needed for training and testing and saves them in a numpy file type so they can be loaded into Google Colab
+# The ratio of Train/Test should be around 0.8
+
 import numpy as np
 import cv2
 import os

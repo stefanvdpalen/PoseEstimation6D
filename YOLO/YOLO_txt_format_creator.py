@@ -1,3 +1,5 @@
+# This script takes in a black and white image of the box to determine the bounding box of the actual object.
+# It reads the file and stores the centre point and width,height of the object in a text file which is used for training the YOLO network
 import cv2
 import glob
 

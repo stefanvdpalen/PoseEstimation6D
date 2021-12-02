@@ -1,5 +1,0 @@
-import cv2
-import numpy as np
-
-cv2.imshow('')
-cv2.waitKey(1)
