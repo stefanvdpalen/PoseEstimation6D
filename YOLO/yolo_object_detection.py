@@ -13,6 +13,7 @@ net = cv2.dnn.readNet("yolov3_training_last.weights",
 
 # Name custom object (box)
 classes = [""]
+iou = 0
 
 # Images path
 images_path = glob.glob(
